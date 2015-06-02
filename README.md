@@ -55,7 +55,7 @@ app.get('/', function (req, res){
 
 ## Bower
 
-    $ bower install browser-detector --save
+    $ bower install detect-mobile-browser --save
 
 ## NPM
 
