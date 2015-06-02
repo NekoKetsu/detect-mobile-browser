@@ -17,7 +17,7 @@
 
     SmartPhone.userAgent = null;
     SmartPhone.getUserAgent = function() {
-        return this.userAgent;
+        return root.navigator.userAgent;
     };
 
     SmartPhone.setUserAgent = function(userAgent) {
